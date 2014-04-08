@@ -36,6 +36,7 @@ BCI competition III [dataset IVa](https://www.bbci.de/competition/iii/#data_set_
 ![performance for log covariance matrices](performance_logm.gif)
 
 (b) inputs are the log of covariance matrices (only symmetric)
+
 You can compare the above results with the results at the competition. Note that the task in the competition was to cope with the small training set size and many participants used the test data to adaptly update their classifiers, which we haven't done here for the sake of simplicity.
 
 ## How to use it
