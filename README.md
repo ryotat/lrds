@@ -2,7 +2,7 @@
 
 ## What it does
 
-It solves a classification problem over symmetric matrices with dual spectral norm (trace norm) regularization using a simple interior point method. It was successfully applied to single trial EEG classification problem in the context of brain-computer interfacing (BCI). In this case the input matrix is the short-time covariance estimate or its matrix logarithm ([Tomioka & Aihara, 2007](http://ttic.uchicago.edu/~ryotat/papers/TomAih07.pdf); see also [ [Slides] ](http://ttic.uchicago.edu/~ryotat/talks/TomiokaICMLday3.pdf)).
+This package solves a classification problem over symmetric matrices with dual spectral norm (trace norm) regularization using a simple interior point method. It was successfully applied to single trial EEG classification problem in the context of brain-computer interfacing (BCI). In this case the input matrix is the short-time covariance estimate or its matrix logarithm ([Tomioka & Aihara, 2007](http://ttic.uchicago.edu/~ryotat/papers/TomAih07.pdf); see also [ [Slides] ](http://ttic.uchicago.edu/~ryotat/talks/TomiokaICMLday3.pdf)).
 Given training examples (X1,y1), (X2,y2),..., (Xn,yn), it solves a regularized empirical risk minimization problem:
 
 ![
